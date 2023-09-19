@@ -1,0 +1,156 @@
+body {
+    font-family: 'Roboto', sans-serif;
+   background-color: white;
+    background-attachment: fixed;
+    color:black
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#login {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.name input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: black;
+    color: #b6b6b6;
+    margin-bottom: 15px;
+}
+
+.email input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color:whitesmoke;
+    color: black;
+
+    
+}
+
+.senha input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color:whitesmoke;
+    color:black;
+    margin-top: 15px;
+    flex-direction: column;
+}
+
+/*notão de login*/
+.login-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-button button {
+    border: none;
+    background-color: #894288;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button button:hover {
+    background-color: #E296DE;
+}
+
+.login-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+/*fim logoin*/
+
+.entrar input:hover{
+    background-color: #ab49cc ;
+}
+
+input::placeholder {
+    color:black;
+}
+
+h1 {
+    color: black;
+}
+
+.caixa {
+    margin-top: 65px;
+}
+
+.caixa img {
+    width: 115px;
+}
+
+input:focus {
+    outline: none;
+}
+.entrar a{
+    font-size: 13px;
+}
+
+p{
+    font-size: 13px;
+}
+
+/* links de cadastro*/
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+nav ul :hover{
+    color:#ab49cc;
+    transform: translateX(1px) rotate(1deg) translateY(5px)
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    transition: transform 0.4s;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.social-media {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+.social-media img {
+    width: 36px;
+    margin-left: 3rem;
+}
+
+.social-media a:first-child img {
+    margin-left: 0;
+}
